@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "outDir": "build",
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "target": "ES2020",
+      "lib": ["esnext", "dom", "esnext.bigint"],
+      "baseUrl": "./",
+      "paths": {
+        "nfc-pcsc": ["types/nfc-pcsc"]
+      }
+    },
+    "exclude": ["nexus-generated-types.d.ts"],
+    "include": ["src/**/*"]
+  }
+  

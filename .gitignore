@@ -1,0 +1,16 @@
+dist
+package-lock.json
+node_modules
+.idea
+.vscode
+*.log
+.env
+
+/.history
+/build
+/certs
+/coverage
+/storage/logs
+
+/nexus-generated-schema.graphql
+/public
